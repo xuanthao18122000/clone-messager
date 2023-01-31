@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Message Facebook</title>
+
+</head>
+<!--    <h1>Message</h1>-->
+<!--    <div>-->
+<!--        <div class="" style="display: flex;justify-content: space-between">-->
+<!--            <label class="p-2" style="font-size: 20px;font-weight: bold;cursor: pointer"><img class="w-25" alt="img" src="https://static.wikia.nocookie.net/logopedia/images/3/3e/Facebook_Messenger_First_Logo.svg">Messenger</label>-->
+<!--            <div class="d-flex justify-content-between align-items-center">-->
+<!--                <a href="#"class="d-flex justify-content-between align-items-center py-2 px-3 border mx-1 text-decoration-none" style="border-radius: 13px">-->
+<!--                    <i class="fa fa-bars" aria-hidden="true" style="margin-right: 5px;"></i>-->
+<!--                    Queue-->
+<!--                    <span class="d-flex justify-content-center align-items-center text-white bg-danger rounded-circle " style="margin-left: 5px;background-color: #A9A9A9;width: 25px;height:25px;vertical-align: super;text-align: center;">2</span>-->
+<!--                </a>-->
+<!--                <a href="#" class="py-2 px-3 border mx-1 text-decoration-none" style="border-radius: 13px"><i class="fa fa-comment-o" aria-hidden="true"></i> Chat</a>-->
+<!--                <a href="#" class="py-2 px-3 border mx-1 text-decoration-none" style="border-radius: 13px"><i class="fa fa-window-restore" aria-hidden="true"></i> Apps</a>-->
+<!--                <a href="#" class="py-2 px-3 border mx-1 text-decoration-none" style="border-radius: 13px"><i class="fa fa-book" aria-hidden="true"></i> Rules</a>-->
+<!--                <a href="#" class="py-2 px-3 border mx-1 text-decoration-none" style="border-radius: 13px"><i class="fa fa-eyedropper" aria-hidden="true"></i> Flows</a>-->
+<!--                <a href="#" class="py-2 px-3 border mx-1 text-decoration-none" style="border-radius: 13px"><i class="fa fa-cogs" aria-hidden="true"></i> Settings</a>-->
+<!--            </div>-->
+<!--            <div class="d-flex justify-content-between align-items-center mx-5" style="font-size: 20px">-->
+<!--                <span class="px-2" style="cursor: pointer"><i class="fa fa-bell-o" aria-hidden="true"></i></span>-->
+<!--                <span class="mx-2" style="font-weight: 500;cursor: pointer">Significa <i class="fa fa-chevron-down" aria-hidden="true"></i></span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="d-flex">-->
+<!--            <div class="mx-4 w-25" style=";display: inline-block">-->
+<!--                <span>VIEW AS:</span><br/>-->
+<!--                <span class="" style="font-weight: bold;cursor: pointer">John Doe <i class="fa fa-chevron-down" aria-hidden="true"></i></span>-->
+<!--                <div class="my-4">-->
+<!--                    <input class="w-50 border-opacity-50" style="border-radius: 5px;" type="text " placeholder="Search"/>-->
+<!--                    <i class="w-25 fa fa-search mx-3" aria-hidden="true" style="font-size: 20px"></i>-->
+<!--                </div>-->
+<!--                <div class="mx-2 d-flex align-items-center border p-2" style="border-radius: 15px;">-->
+<!--                    <span class="d-flex justify-content-center align-items-center text-white rounded-circle " style="background-color: #A9A9A9;width: 40px;height:40px;vertical-align: super;text-align: center;">A</span>-->
+<!--                    <div class="d-flex flex-column px-3">-->
+<!--                        <span class="" style="font-size: 20px;font-weight: bold">Nguyễn Xuân Thao</span>-->
+<!--                        <span class="" >Hi there can you help me? I want a red jacket!</span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="w-75" style="display: inline-block;position: relative;">-->
+<!--                <div class="header p-2 border align-items-center" style="display: flex;justify-content: space-between">-->
+<!--                    <div class="header-left ">-->
+<!--                        <div class="fw-bold fs-2 py-2" style="font-weight: bold;font-size: 20px">Room 2022</div>-->
+<!--                        <div class="p-2 ">-->
+<!--                            <span class="text-primary p-2 border" style="border-radius: 7px">BLUE JACKETS</span>-->
+<!--                            <span class="text-success p-2 border" style="border-radius: 7px">JOIN WICK</span>-->
+<!--                            <span class="text-warning p-2 border" style="border-radius: 7px">SINGER AR</span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="header-right">-->
+<!--                        <span class="py-2 px-3 border mx-1" style="border-radius: 30px">Assign to:</span>-->
+<!--                        <span class="py-2 px-3 border mx-1" style="border-radius: 30px">Sales</span>-->
+<!--                        <label>-->
+<!--                            <input class="p-2 border-opacity-50" style="border-radius: 10px;" type="text" placeholder="Search here ..."/>-->
+<!--                        </label>-->
+<!--                        <span class="" style="cursor: pointer"><i class="fa fa-search mx-3" aria-hidden="true" style="font-size: 20px"></i></span>-->
+<!--                        <span class="d-inline-block mx-3"><i class="fa fa-ellipsis-v mx-1" aria-hidden="true" style="font-size: 20px"></i></span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="border">-->
+<!--                    <div id="messengers">-->
+<!--                        <div id ="messenger" class="px-4 align-items-center mt-4" style="display: none">-->
+<!--                            <span id="name-user" class="d-flex justify-content-center align-items-center text-white rounded-circle" style="cursor: pointer;background-color: #A9A9A9;width: 40px;height:40px;vertical-align: super;text-align: center;"></span>-->
+<!--                            <span class="d-flex flex-column">-->
+<!--                                <span id="fullName" class="mx-2" style="margin-bottom: 1px;cursor: pointer;font-weight: 700"></span>-->
+<!--                                <span class="border mx-2 p-2" style="border-radius: 10px">-->
+<!--                                    <span class="" id="text-messenger" ></span>-->
+<!--                                </span>-->
+<!--                            </span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div style="margin-top: 400px;">-->
+<!--                        <div class="position-sticky p-3">-->
+<!--                            <input type="text" id="input-messenger" class="w-75 p-3" style="border-radius: 10px"/>-->
+<!--                            <button class="btn-primary  border-primary p-3 px-4" id="btn-send-messenger" style="border-radius: 10px">Send</button>-->
+<!--                            <button class="btn-outline-primary border-light p-3 px-4" style="border-radius: 10px"><i class="fa fa-map-marker" aria-hidden="true"></i> Share location</button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <h1>Message</h1>-->
+<div class="">
+    <div class="row">
+        <nav class="menu">
+            <ul class="items">
+                <li class="item">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </li>
+                <li class="item">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </li>
+                <li class="item">
+                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                </li>
+                <li class="item item-active">
+                    <i class="fa fa-commenting" aria-hidden="true"></i>
+                </li>
+                <li class="item">
+                    <i class="fa fa-file" aria-hidden="true"></i>
+                </li>
+                <li class="item">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="discussions">
+            <div class="discussion search">
+                <div class="searchbar">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="text" placeholder="Search..."></input>
+                </div>
+            </div>
+            <div class="discussion message-active">
+                <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);">
+                    <div class="online"></div>
+                </div>
+                <div class="desc-contact">
+                    <p class="name">Megan Leib</p>
+                    <p class="message">9 pm at the bar if possible 😳</p>
+                </div>
+                <div class="timer">12 sec</div>
+            </div>
+            <div class="discussion message">
+                <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1541747157478-3222166cf342?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80);">
+                    <div class="online"></div>
+                </div>
+                <div class="desc-contact">
+                    <p class="name">Megan Leib</p>
+                    <p class="message">9 pm at the bar if possible 😳</p>
+                </div>
+                <div class="timer">12 sec</div>
+            </div>
+
+            <div class="discussion">
+                <div class="photo" style="background-image: url(https://i.pinimg.com/originals/a9/26/52/a926525d966c9479c18d3b4f8e64b434.jpg);">
+                    <div class="online"></div>
+                </div>
+                <div class="desc-contact">
+                    <p class="name">Dave Corlew</p>
+                    <p class="message">Let's meet for a coffee or something today ?</p>
+                </div>
+                <div class="timer">3 min</div>
+            </div>
+
+            <div class="discussion message">
+                <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);">
+                    <div class="online"></div>
+                </div>
+                <div class="desc-contact">
+                    <p class="name">Megan Leib</p>
+                    <p class="message">9 pm at the bar if possible 😳</p>
+                </div>
+                <div class="timer">12 sec</div>
+            </div>
+
+            <div class="discussion">
+                <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1497551060073-4c5ab6435f12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);">
+                </div>
+                <div class="desc-contact">
+                    <p class="name">Jerome Seiber</p>
+                    <p class="message">I've sent you the annual report</p>
+                </div>
+                <div class="timer">42 min</div>
+            </div>
+
+            <div class="discussion">
+                <div class="photo" style="background-image: url(https://card.thomasdaubenton.com/img/photo.jpg);">
+                    <div class="online"></div>
+                </div>
+                <div class="desc-contact">
+                    <p class="name">Thomas Dbtn</p>
+                    <p class="message">See you tomorrow ! 🙂</p>
+                </div>
+                <div class="timer">2 hour</div>
+            </div>
+
+            <div class="discussion message">
+                <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);">
+                    <div class="online"></div>
+                </div>
+                <div class="desc-contact">
+                    <p class="name">Megan Leib</p>
+                    <p class="message">9 pm at the bar if possible 😳</p>
+                </div>
+                <div class="timer">12 sec</div>
+            </div>
+
+            <div class="discussion">
+                <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1553514029-1318c9127859?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80);">
+                </div>
+                <div class="desc-contact">
+                    <p class="name">Elsie Amador</p>
+                    <p class="message">What the f**k is going on ?</p>
+                </div>
+                <div class="timer">1 day</div>
+            </div>
+
+            <div class="discussion">
+                <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1541747157478-3222166cf342?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80);">
+                </div>
+                <div class="desc-contact">
+                    <p class="name">Billy Southard</p>
+                    <p class="message">Ahahah 😂</p>
+                </div>
+                <div class="timer">4 days</div>
+            </div>
+
+            <div class="discussion">
+                <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1435348773030-a1d74f568bc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80);">
+                    <div class="online"></div>
+                </div>
+                <div class="desc-contact">
+                    <p class="name">Paul Walker</p>
+                    <p class="message">You can't see me</p>
+                </div>
+                <div class="timer">1 week</div>
+            </div>
+        </section>
+        <section class="chat">
+            <div class="header-chat">
+                <i class="icon fa fa-user-o" aria-hidden="true"></i>
+                <p class="name">Megan Leib</p>
+                <i class="icon clickable fa fa-ellipsis-h right" aria-hidden="true"></i>
+            </div>
+            <div id="messengers" class="messages-chat">
+                <div id="messenger">
+                    <div  class="message">
+                        <div class="photo" style="cursor: pointer;background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);">
+                            <div class="online"></div>
+                        </div>
+                        <p id="text-messenger" class="text"> Hi, how are you ? </p>
+
+
+                    </div>
+                    <p class="time"> 14h58</p>
+                </div>
+
+                <div id="messenger-myself" class="d-flex flex-column message text-only">
+                    <div class="response">
+                        <p id="text-messenger-myself" class="text"> Hey Megan ! It's been a while 😃</p>
+                    <p class="response-time time text-end"> 15h04</p>
+                    </div>
+<!--                    <a id="btn-share-location" class="icon send fa fa-paper-plane-o clickable" aria-hidden="true"> Send location</a>-->
+                </div>
+
+            </div>
+
+            <div class="footer-chat">
+
+                <i class="icon fa fa-smile-o clickable" style="font-size:25pt;" aria-hidden="true"></i>
+                <form onsubmit="event.preventDefault();">
+                    <input id="input-messenger" type="text" class="write-message" placeholder="Type your message here"></input>
+                    <button id="btn-send-messenger" class="icon send fa fa-paper-plane-o clickable" aria-hidden="true"></button>
+                </form>
+
+            </div>
+
+        </section>
+    </div>
+</div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/client-chat.js"></script>
+</body>
+</html>
