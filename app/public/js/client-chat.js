@@ -1,7 +1,7 @@
 
 // Yêu cầu server kết nối với client
 const socket = io();
-const name = prompt('Tên bạn là gì ?');
+const name = prompt('Tên mày là gì ? Trả lời');
 let heightScroll = 1000;
 socket.on("Send messenger old Client to Server", (payload) => {
     const messengers = Object.entries(payload.Data);
